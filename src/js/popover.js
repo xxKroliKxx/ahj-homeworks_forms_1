@@ -24,7 +24,6 @@ export default class popover {
 
         element.append(this.element)
         this.element.style.top = `calc(${-this.element.offsetHeight}px + (0.5rem + 1px) * -1)`
-        this.element.style.left = `${element.offsetWidth / 2 - this.element.offsetWidth / 2}px`;
     }
 
     hidePop() {
